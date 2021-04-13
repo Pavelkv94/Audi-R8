@@ -1,0 +1,111 @@
+body {
+    background-image: url(../img/tabl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(47, 43, 73, 0.596);
+    list-style-type: none;
+    margin:  10px 0px 10px 0px;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+nav ul li {
+    display: inline;
+    }
+nav ul {
+    padding: 0px;
+    text-align: right;
+}
+.nav {
+    padding: 10px 10px 10px 10px;
+    margin: 5px 20px;
+    }
+ nav ul li img {
+        float: left;
+    }
+.nav a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(57, 95, 219);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+.nav a:hover {
+    color: rgb(129, 226, 255);
+    transition: all 0.6s;
+    border-bottom: solid;
+}
+footer {
+    background-color: rgba(54, 52, 52, 0.589);
+    color: rgb(175, 201, 214);
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    line-height: 80px;
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    
+}
+.width {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header {
+    text-align: center;
+    background-color: rgba(253, 253, 255, 0.801);
+    line-height: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#tableChar {
+    display: table;
+    background-color: rgba(35, 247, 229, 0.61);
+}
+.tableRow1 {
+    display: table-row;
+    background-color: rgba(0, 217, 255, 0.623);
+}
+.tableRow2 {
+    display: table-row;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+.Cell {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    padding: 10px;
+    font-weight: 500;
+    font-style: italic;
+}
+.Cell1 {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    padding: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+.kuz {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    margin-left: 5%;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+em {
+    font-size: 70%;
+    text-align: center;
+}

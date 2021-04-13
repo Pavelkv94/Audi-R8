@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/opis1.jpg);
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(47, 43, 73, 0.596);
+    list-style-type: none;
+    margin:  10px 0px 0px 0px;
+    line-height: 250%;
+    text-transform: uppercase;
+    
+}
+nav ul li {
+    display: block;
+        }
+nav ul {
+    padding: 0px;
+    text-align: right;
+}
+ 
+.nav a {
+    text-decoration: none;
+    font-size: 150%;
+    color: rgb(57, 95, 219);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+.nav a:hover {
+    color: rgb(129, 226, 255);
+    transition: all 0.6s;
+    border-bottom: solid;
+    background-color: black;
+}
+footer {
+    background-color: rgba(54, 52, 52, 0.589);
+    color: rgb(175, 201, 214);
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    line-height: 100%;
+    position: relative;
+    left: 1px;
+    right: 1px;
+    bottom: 0;
+}
+
+
+#s2h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    width: 90%;
+    background-color: rgba(46, 45, 45, 0.685);
+    font-size: 110%;
+   }
+#s2p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    text-align: center;
+    background-color: rgba(48, 47, 46, 0.685);
+   
+    
+}
+div#tableContainer {
+    background-color: rgba(255, 245, 231, 0.685);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div.tableRow {
+    display: table-row;
+}
+.slide2 {
+    display: table-row;
+    width: 60%;
+    padding: 10px;
+
+}
+.s2h2 {
+    display: table-row;
+    vertical-align: middle;
+}
+.s2h2 h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+.s2h2 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4em;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.s2h3 h2 {
+    background-color: rgba(255, 245, 231, 0.685);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.s2h3 p {
+    background-color: rgba(255, 245, 231, 0.685);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+    padding: 10px;
+    }
+.salone ul {
+    background-color: rgba(255, 245, 231, 0.685);
+       text-align: center;
+}
+.salone li {
+    display: inline;
+    text-align: center;
+    
+}
+.salone li img {
+        width: 90%;
+        padding: 10px;
+        height: 90%;
+}
+.scale {
+    transition: 0.5s;
+}
+.scale:hover {
+    transform: scale(1.1);
+}
+#vid {
+ text-align: center;
+}
+video {
+    width: 90%;
+}
+
